@@ -3,6 +3,7 @@ var express = require("express");
 const { connectDb, closeConnection } = require("../config");
 var router = express.Router();
 
+
 /* GET users listing. */
 router.get("/get-data", async (req, res) => {
   try {
