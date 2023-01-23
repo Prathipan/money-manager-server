@@ -18,7 +18,7 @@ app.set("view engine", "jade");
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://prathipan-money-manager.netlify.app",
     // https://prathipan-money-manager.netlify.app
   })
 );
